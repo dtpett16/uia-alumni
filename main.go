@@ -9,9 +9,8 @@ import (
 var tpl *template.Template
 
 type pageData struct {
-	Title       string
-	FirstName   string
-	DegreeLevel string
+	Title     string
+	FirstName string
 }
 
 func init() {
@@ -19,9 +18,9 @@ func init() {
 }
 func main() {
 	http.HandleFunc("/", idx)
-	http.HandleFunc("/templates/about.html", abot)
-	http.HandleFunc("/templates/contact.html", cntct)
-	http.HandleFunc("/templates/apply.html", aply)
+	http.HandleFunc("/templates/news.html", abot)
+	http.HandleFunc("/templates/subjectMaterial.html", cntct)
+	http.HandleFunc("/templates/settings.html", aply)
 	http.Handle("/favicon.ivo", http.NotFoundHandler())
 	http.ListenAndServe(":8080", nil)
 }
@@ -43,9 +42,9 @@ func idx(w http.ResponseWriter, req *http.Request) {
 func abot(w http.ResponseWriter, req *http.Request) {
 
 	pd := pageData{
-		Title: "About Page",
+		Title: "news Page",
 	}
-	err := tpl.ExecuteTemplate(w, "about.html", pd)
+	err := tpl.ExecuteTemplate(w, "news.html", pd)
 
 	if err != nil {
 		log.Println(err)
@@ -56,9 +55,9 @@ func abot(w http.ResponseWriter, req *http.Request) {
 func cntct(w http.ResponseWriter, req *http.Request) {
 
 	pd := pageData{
-		Title: "Contact Page",
+		Title: "subjectMaterial Page",
 	}
-	err := tpl.ExecuteTemplate(w, "contact.html", pd)
+	err := tpl.ExecuteTemplate(w, "subjectMaterial.html", pd)
 
 	if err != nil {
 		log.Println(err)
@@ -68,18 +67,15 @@ func cntct(w http.ResponseWriter, req *http.Request) {
 }
 func aply(w http.ResponseWriter, req *http.Request) {
 	pd := pageData{
-		Title: "Apply Page",
+		Title: "settings Page",
 	}
 	var first string
-	var degree string
 	if req.Method == http.MethodPost {
 		first = req.FormValue("fname")
-		degree = req.FormValue("dename")
 		pd.FirstName = first
-		pd.DegreeLevel = degree
 	}
 
-	err := tpl.ExecuteTemplate(w, "apply.html", pd)
+	err := tpl.ExecuteTemplate(w, "settings.html", pd)
 	if err != nil {
 		log.Println(err)
 		http.Error(w, "Internal server error 4", http.StatusInternalServerError)
