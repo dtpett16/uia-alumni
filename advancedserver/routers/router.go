@@ -2,7 +2,7 @@ package routers
 
 import (
 	"github.com/astaxie/beego"
-	"github.com/dtpett16/uia-alumni/controllers"
+	"github.com/dtpett16/uia-alumni/advancedserver/controllers"
 )
 
 func init() {
