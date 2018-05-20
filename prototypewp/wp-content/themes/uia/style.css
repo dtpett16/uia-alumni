@@ -1,0 +1,365 @@
+/*
+Theme Name: UiA
+Theme URI: http://uia.no
+Description: UiA theme based on twentyseventeen.
+Author: Henrik Jagels
+Author URI: http://uia.no
+Template: twentyseventeen
+Version: 1.4
+*/
+
+/* Parent stylesheet should be loaded from functions.php not using @import */
+/*
+=======================================================================
+	Profile colors and branding
+=======================================================================
+*/
+
+.uia-topbar
+{
+    background-color: #EF5629;
+}
+
+body.page:not(.twentyseventeen-front-page) h1.entry-title {
+	color: #EF5629;
+}
+
+h1, h2, h3, h4, h5 {
+	color: #EF5629;
+	font-weight: 700;
+}
+
+
+/*
+=======================================================================
+	General CSS and layout
+=======================================================================
+*/
+
+.page.page-one-column:not(.twentyseventeen-front-page) #primary {
+	margin-left: initial;
+    margin-right: initial;
+    max-width: inherit;
+}
+
+.home .site-content {
+	padding: 2em 0 0;
+}
+
+.page .panel-content .entry-title, .page-title, body.page:not(.twentyseventeen-front-page) .entry-title
+{
+	text-align: center;
+	font-size: 1.875rem;
+	text-transform: capitalize;
+}
+
+.site-content .entry-content a:hover, .site-footer .widget-area a:hover {
+    background: #dfe4e5;
+}
+
+.site-content .entry-content a, .site-footer .widget-area a {
+    text-decoration: none;
+    color: #363636;
+    background: #e8eef0;
+    cursor: pointer;
+    box-shadow: none;
+}
+
+p {
+	font-size: 1.2em;
+}
+
+/*
+=======================================================================
+	Topbad and header CSS
+=======================================================================
+*/
+
+.site header.site-header {
+    background-color: #fff;
+}
+
+.navbar-brand img {
+	height: 1.8rem;
+}
+
+.custom-logo-link img {
+	max-height: 120px;
+}
+
+.site-branding .container {
+	text-align: center;
+}
+
+#site-navigation ul.menu {
+	text-align: center;
+}
+
+/*
+=======================================================================
+	Footer
+=======================================================================
+*/
+
+.social-navigation a {
+	background-color: #EF5629;
+}
+
+
+/*
+=======================================================================
+	Person listings
+=======================================================================
+*/
+
+.listelement-employee {
+	padding-bottom: 1em;
+	text-align: center;
+}
+
+.listelement-employee h3 {
+	padding: 0;
+	margin: 0.8em 0 0.3em 0;
+}
+
+.listelement-employee img {
+	-moz-border-radius: 999px;
+    -webkit-border-radius: 999px;
+    border-radius: 999px;
+    max-width: 150px;
+}
+
+.listelement-employee .name {
+	font-size: 0.8em;
+	font-weight: 600;
+	padding-top: 1em;
+}
+
+.listelement-employee .pos {
+	font-size: 0.8em;
+}
+
+.custom-icon {
+  font-size:45px;
+  background:#666;
+  background:rgba(0,0,0,0.4);
+  padding:30px;
+  -webkit-border-radius:1100%;
+  -moz-border-radius:100%;
+  -o-border-radius:100%;
+  border-radius:100%;
+  border:6px solid #fff;
+  color:#fff;
+	box-shadow: 0 1px 10px rgba(0, 0, 0, 0.46);
+  text-align:center;
+  display:table-cell;
+  vertical-align:middle;
+  width:60px;
+  height:60px;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  -o-transition:.5s;
+  transition:.5s;
+}
+.custom-icon:hover {
+  background:rgba(0,0,0,0.6);
+}
+.fix-editor {
+  display:none;
+}
+.icon-wrapper {
+  display:inline-block;
+}
+
+/*
+=======================================================================
+	Front page banner
+=======================================================================
+*/
+
+.front-page-banner {
+	width:100%;
+	height: 250px;
+	}
+
+a[class*="tile-"] {float:left;position:relative;
+	-webkit-transition: all 0.3s ease;                  
+  -moz-transition: all 0.3s ease;                 
+  -o-transition: all 0.3s ease;   
+  -ms-transition: all 0.3s ease;          
+  transition: all 0.3s ease;
+	}
+	
+a[class*="tile-"] .tile-content {position:absolute;}
+a[class*="tile-"]:before {
+	position:absolute;
+	content: '';
+	background: rgba(0, 0, 0, 0.15);
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+  -webkit-transition: all 0.1s ease-out;
+  -moz-transition: all 0.1s ease-out;
+  -o-transition: all 0.1s ease-out;
+  transition: all 0.1s ease-out;
+	}
+
+a[class*="tile-"]:hover:before {
+	background: rgba(0, 0, 0, 0.35);
+	}
+
+.front-page-banner .tile-no1 {
+	width:60%;
+	height:100%;
+	background: red;
+	border-right:15px solid #fff;
+	}
+
+.front-page-banner .tile-content {
+	bottom:15px;
+	left:15px;
+	}
+
+.front-page-banner h2 {
+	margin:0;padding:0;
+	color:#fff;
+	font-size:1em;
+	margin-right:20px;
+	line-height:normal;
+
+	}
+
+.front-page-banner .tile-no2 {
+	width:40%;
+	height:60%;
+	background: yellow;
+	border-bottom:15px solid #fff;
+	}
+
+.front-page-banner .tile-no3 {
+	width:40%;
+	height:40%;
+	background: green;
+	}
+
+@media screen and (min-width: 500px) {
+	.front-page-banner {height: 350px;}
+	.front-page-banner h2 {font-size:1.3em;}
+	}
+
+@media screen and (min-width: 768px) {
+
+	.front-page-banner h2 {
+		line-height: 1.618;
+		padding:15px;
+		font-size:1.5em;
+		-webkit-box-decoration-break: clone;
+		box-decoration-break: clone;
+		opacity: .9;
+		background-color: rgba(0,0,0,0.75);
+		display: inline;}
+	.front-page-banner .tile-no1 .tile-content {bottom: 30px;left:auto;right: 30px;}
+	.front-page-banner .tile-no2 .tile-content,
+	.front-page-banner .tile-no3 .tile-content {bottom: 30px;left: 30px;}
+	.front-page-banner .tile-no1 {border-right:15px solid #fff;}
+	.front-page-banner .tile-no2 {border-bottom:15px solid #fff;}
+	}
+
+@media screen and (min-width: 991px) {
+	.front-page-banner {margin-top:1em;height: 450px;}
+	.front-page-banner h2 {font-size:2em;}
+	}
+
+@media screen and (min-width: 1200px) {
+	.front-page-banner {margin-top:1em;height: 600px;}
+	.front-page-banner h2 {font-size:2.2em;}
+	}
+
+/*
+=======================================================================
+	Front page bigbanner
+=======================================================================
+*/
+
+.front-page-bigbanner {width:100%;}
+
+.front-page-bigbanner > div {
+	float:left;
+	background-size:cover;
+	}
+
+.tile {float:left;text-align:center;color:#fff;}
+.tile .overlay {width:100%;height:100%;display:table;}
+.tile h2 {text-align:center;color:#fff;margin:0;padding:0;text-shadow: 1px 1px 1px rgba(0,0,0,.6);}
+.tile span.hr {margin: 0 auto;width:55%;height:3px;border-bottom: 2px solid rgba(255,255,255,.7);display:block;display:none;}
+.tile .teaser {font-family:'LP Bambus W00';font-weight:100;text-shadow: 1px 1px 1px rgba(0,0,0,.6);}
+.tile .caption {display:table-cell;vertical-align:middle;width:100%;text-align:center;padding:0;}
+.tile .caption .cta {font-size:16px;font-weight:normal;color:#fff;border: 3px solid #fff;padding:6px 15px;display:inline-block;margin-top:10px;}
+.tile .caption .cta:before {
+	font-family: FontAwesome;
+  content: "\f105";
+	margin-right:10px;
+	}
+
+.tile1 {width:100%;height:200px;}
+.tile1 > div {width:100%;height:100%;border-bottom:10px solid #fff;background: url(images/fp-featured.jpg) top center no-repeat;display:block;	background-size:cover;position:relative;}
+
+
+/* ==========================================================================
+   Tile 1
+   ========================================================================== */
+.tile1 .caption h2 {font-size:30px;font-weight:100;margin-bottom:0.6em;line-height:normal;}
+
+.tile1.left .caption {text-align:left;}
+.tile1.left .caption h2 {text-align:left;margin-left:10%;margin-right:10%;}
+.tile1.left .caption .cta {margin-left:10%;}
+
+.tile1.center .caption,
+.tile1.center .caption h2  {text-align:center;padding-left:10%;padding-right:10%;}
+
+.tile1.right .caption {text-align:right;}
+.tile1.right .caption h2 {text-align:right;margin-right:10%;}
+.tile1.right .caption .cta {margin-right:10%;}
+
+
+@media screen and (min-width: 768px) {
+
+	.tile1 {width:100%;height:300px;}
+
+	.tile1 > div {width:100%;height:100%;border-bottom:10px solid #fff;}
+
+	/* tile 1 */
+	.tile1 .caption h2 {font-size:60px;}
+	.tile1 .caption a {font-size:15px;padding:10px 20px;}
+	
+	/* tiles all */
+	.tile .caption .cta {font-size:18px;padding:8px 16px;}
+
+	}
+
+@media screen and (min-width: 991px) {
+
+	.tile1 {width:100%;height:400px;}
+
+	.tile .caption .cta {font-size:20px;padding:10px 20px;}
+	}
+
+@media screen and (min-width: 1199px) {
+	.tile1 {height:700px;}
+	
+	.tile1 .caption h2 {font-size:90px;}
+
+	.tile .caption .cta {font-size:22px;padding:10px 20px;
+	text-shadow: 1px 1px 1px rgba(0,0,0,.8);
+	}
+
+	}
+	
+@media screen and (min-width: 2000px) {
+	.front-page-bigbanner {width: 2000px;margin: 0 auto;}
+	}
+	
+	
+
