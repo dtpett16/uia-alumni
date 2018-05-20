@@ -25,20 +25,11 @@ sidene viser hvordan disse tabellene ser ut. Nummer på hver
 brukerhistorie er også en prioritering på hvor viktig brukerhistorien
 er, i tillegg til MoSCoW-prioriteringen.
 
-![](media/image14.PNG){width="6.250872703412074in"
-height="4.646481846019247in"}
+![Brukerhistorietabell](https://github.com/dtpett16/uia-alumni/blob/master/vedlegg/Userstory%20part%201.PNG)
 
-[]{#_Toc514200973 .anchor}Figur 12: Brukerhistorietabell
+![Brukerhistorietabell](https://github.com/dtpett16/uia-alumni/blob/master/vedlegg/Userstory%20part%202.PNG)
 
-![](media/image15.PNG){width="6.271708223972004in"
-height="4.146411854768154in"}
-
-[]{#_Toc514200974 .anchor}Figur 13: Brukerhistorietabell
-
-![](media/image16.PNG){width="6.271708223972004in"
-height="4.469373359580053in"}
-
-[]{#_Toc514200975 .anchor}Figur 14: Brukerhistorietabell
+![Brukerhistorietabell](https://github.com/dtpett16/uia-alumni/blob/master/vedlegg/Userstory%20part%203.PNG)
 
 4.2 Rikt bilde
 --------------
@@ -51,10 +42,7 @@ alumni har meldt seg på så for vedkommende en bekreftelse på påmelding,
 som også administrator for vite om. En alumni kan også melde seg av et
 arrangement, og får igjen en bekreftelse på avmedling.
 
-![](media/image17.jpeg){width="4.282296587926509in"
-height="5.696466535433071in"}
-
-[]{#_Ref514184879 .anchor}Figur 15: Rikt bilde 1
+![Rikt bilde 1](https://github.com/dtpett16/uia-alumni/blob/master/vedlegg/richpic1.jpg)
 
 Det neste rike bildet (Figur 16) viser hvordan administrator kan
 opprette eller slette en nyhet. Administrator går fra hjemmesiden til
@@ -62,10 +50,7 @@ nyheter, og kan deretter lage en nyhet eller redigere en eksiterende
 nyhet. Fra redigerte nyheter kan administrator slette nyheten som gjør
 at administrator blir sendt tilbake til nyhetssiden.
 
-![](media/image18.jpeg){width="4.712814960629921in"
-height="5.61262467191601in"}
-
-[]{#_Ref514185238 .anchor}Figur 16: Rikt bilde 2
+![Rikt bilde 2](https://github.com/dtpett16/uia-alumni/blob/master/vedlegg/richpic2.jpg)
 
 4.3 Klassediagram
 -----------------
@@ -77,10 +62,7 @@ med veilederen fikk vi tilbakemeldinger om mulige forbedringer. Som
 følge av dette ble versjon 2 utredet. Versjon 2 gir grunnlaget for andre
 modeller i analysefasen.
 
-![](media/image19.png){width="7.223429571303587in"
-height="4.385255905511811in"}
-
-[]{#_Toc514200978 .anchor}Figur 17: Klassediagram
+![Klassediagram](https://github.com/dtpett16/uia-alumni/blob/master/vedlegg/klassediagram.png)
 
 4.4 Tilstandsdiagram
 --------------------
@@ -93,9 +75,7 @@ Administrator kan redigere arrangementet uten å deaktivere den. Den
 forblir aktiv frem til administrator velger å deaktivere eller slette
 den.
 
-![](media/image20.png){width="6.4375in" height="2.4438659230096236in"}
-
-[]{#_Ref514185703 .anchor}Figur 18: Tilstandsdiagram for arrangement
+![Tilstandsdiagram 1](https://github.com/dtpett16/uia-alumni/blob/master/vedlegg/tilstandarrangement.png)
 
 I de andre tilstandsdiagrammet for arrangement (Figur 19) starter
 brukeren starter med å velge et spesifikt arrangement. Når arrangementet
@@ -104,11 +84,7 @@ melde seg på, og nå påmeldingstilstanden. Informasjonen blir lagt inn.
 Når informasjonen er utfylt er bruker påmeldt til arrangement. Prosessen
 kan deretter starte på nytt ved å velge et nytt arrangement.
 
-![](media/image21.png){width="6.510416666666667in"
-height="1.6852854330708662in"}
-
-[]{#_Ref514187764 .anchor}Figur 19: Tilstandsdiagram for Arrangement
-(bruker)
+![Tilstandsdiagram 2](https://github.com/dtpett16/uia-alumni/blob/master/vedlegg/tilstandp%C3%A5melding.png)
 
 4.5 Prototype
 -------------
