@@ -5,7 +5,7 @@ I denne filen er det mulig å lese hele kravspesifikasjonen for UiA Alumni (offe
 
 # Mappen "prototypewp" er den mest relevante for innlevering i Open Source!! Gjerne se gjennom den mappen først!!
 
-
+Prototype tilgjengelig på https://alumniuia.wpengine.com
 
 3.0 Utarbeidelse av kravspesifikasjon (leveranse -- del 1)
 ==========================================================
