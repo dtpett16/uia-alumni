@@ -1,0 +1,122 @@
+/* CSS Document */
+
+body{
+    font-family: "Conduit",Arial,Helvetica,sans-serif;
+    font-weight: 300;
+}
+
+a:visited {
+    color: #00759A;
+    text-decoration: none;
+}
+a {
+    color: #00759A;
+    text-decoration: none;
+}
+a img.pdf {
+	border: none;
+}
+a.sok:visited {
+    color: #00759A;
+    text-decoration: none;
+}
+a.sok{
+    color: #00759A;
+    text-decoration: none;
+}
+
+div#feil{
+	background-color:#FFBBAA;
+	border:1px solid #FF0000;
+	padding:10px;
+	font-size:11px;
+	text-transform:uppercase;
+	text-align:center;
+	font-weight:bold;
+	margin-top:25px;
+}
+div#ok{
+	background-color:#BBFF88;
+	border:1px solid #00FF00;
+	padding:10px;
+	font-size:11px;
+	text-transform:uppercase;
+	text-align:center;
+	font-weight:bold;
+	margin-top:25px;
+}
+div#status{
+	height:100px;
+	width:600px;
+}
+
+input.ar {
+	width: 30px;
+}
+input.avdeling {
+	width: 400px;
+}
+
+table.opplasting td{
+	border-bottom:1px solid #CCC;
+	padding:5px 10px 5px 10px;
+}
+table.meny td{
+	padding:15px 20px 15px 20px;
+}
+table.sok{
+	border-collapse:collapse;
+}
+tr.bakgrunn_1{
+    background-color: #d0dce3 !important;
+    border-bottom: 1px solid #d0dce3 !important;
+}
+tr.bakgrunn_2{
+    border-right: 1px solid #fff;
+    background-color: #f2f6f8;
+    border-bottom: 2px solid #fff;
+}
+td.luft{
+	padding:5px 5px 5px 5px;
+}
+td.border_bottom{
+	border-bottom:1px solid #666;
+}
+td.bredde_1{
+	width:25%;
+}
+td.bredde_2{
+	width:75%;
+}
+
+span.slett{
+	color:#0000fe;
+	font-size:11px;
+	cursor:pointer;
+}
+span.melding{
+	color:#aa112c;
+}
+option{
+	color:#000;
+}
+.strong{
+	font-weight:bold;
+}
+.italic{
+	font-style:italic;
+}
+.aar{
+	width: 35px;
+}
+
+select {
+    width: 100%;
+    margin-top: -1px;
+    margin: 8px 0;
+    padding: 3px;
+    border-radius: 4px;
+    font-size: 1em;
+    border: 1px solid;
+    border-color: #818a8f #e0e0e0 #e0e0e0 #818a8f;
+}
