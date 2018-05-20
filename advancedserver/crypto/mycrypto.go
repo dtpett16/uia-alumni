@@ -5,7 +5,7 @@ import (
 	"crypto/hmac"
 	"crypto/rand"
 	"crypto/sha256"
-	"github.com/dtpett16/uia-alumni/crypto/secretbox"
+	"github.com/dtpett16/uia-alumni/advancedserver/crypto/secretbox"
 
 	"encoding/base64"
 	"encoding/hex"
