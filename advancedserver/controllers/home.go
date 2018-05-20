@@ -7,8 +7,8 @@ import (
 
 	"github.com/astaxie/beego"
 
-	"github.com/dtpett16/uia-alumni/crypto"
-	"github.com/dtpett16/uia-alumni/models"
+	"github.com/dtpett16/uia-alumni/advancedserver/crypto"
+	"github.com/dtpett16/uia-alumni/advancedserver/models"
 )
 
 var (
