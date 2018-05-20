@@ -8,7 +8,7 @@ visualisere basert på fortsettelsen av analysen. Utgangspunktet er
 fortsatt i funksjoner beskrevet i kravspesifikasjonen, med noen egen
 analyse inne i bildet.
 
-Live prototypen kan besøkes på alumniuia.wpengine.com
+Live prototypen kan besøkes på https://alumniuia.wpengine.com
 
 Send e-post til dtpett16@student.uia.no for å få mer informasjon om hvordan å bidra på den live-installasjonen med Wordpress frontend.
 
