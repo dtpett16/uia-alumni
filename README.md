@@ -3,6 +3,8 @@
 Dette produktet består av to ting: en omfattende kravspesifikasjon - opprinnelig ment til offentlig anskaffelse - og prototypen, som er selve produktet for denne oppgaven.
 I denne filen er det mulig å lese hele kravspesifikasjonen for UiA Alumni (offentlig anskaffelse). Analysen for prototypen er i mappen "prototypewp".
 
+# Mappen "prototypewp" er den mest relevante for innlevering i Open Source!! Gjerne se gjennom den mappen først!!
+
 3.0 Utarbeidelse av kravspesifikasjon (leveranse -- del 1)
 ==========================================================
 
