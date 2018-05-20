@@ -220,6 +220,7 @@ tillegges lavere vekt enn B-krav.
 De generelle kravene omfavner de mest grunnleggende kravene for funksjon
 av systemet.
 
+```
 +-----------------------+-----------------------+-----------------------+
 | Nr.                   | Krav                  | Prioritet             |
 +=======================+=======================+=======================+
@@ -284,6 +285,7 @@ av systemet.
 |                       | skal følge gjeldene   |                       |
 |                       | WAI-retningslinjer.   |                       |
 +-----------------------+-----------------------+-----------------------+
+```
 
 ### 2. Brukerautentisering og administrasjon
 
