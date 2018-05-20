@@ -4,8 +4,8 @@ import (
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/orm"
 
-	_ "github.com/dtpett16/uia-alumni/models"
-	_ "github.com/dtpett16/uia-alumni/routers"
+	_ "github.com/dtpett16/uia-alumni/advancedserver/models"
+	_ "github.com/dtpett16/uia-alumni/advancedserver/routers"
 	_ "github.com/go-sql-driver/mysql"
 )
 
