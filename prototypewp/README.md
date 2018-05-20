@@ -149,9 +149,7 @@ prosjektlederen en kalenderimplementasjon. Det er også et søkefelt og
 beskrivelse av alumni nettsiden. Hovedsiden prøver å ha fokus på hva en
 bruker kan interessere seg mest for.
 
-![](media/image22.png){width="6.760416666666667in" height="5.5in"}
-
-[]{#_Ref514185971 .anchor}Figur 20: Hovedsiden til Prototypen
+![Hovedside](https://github.com/dtpett16/uia-alumni/blob/master/vedlegg/hovedside.PNG)
 
 **Innlogging:**\
 Figur 21: Innlogging til Alumni viser hvordan en bruker vil kunne logge
@@ -164,10 +162,7 @@ vedkommende ikke er en bruker er det mulig å registrere seg.
 Passordgjenoppretting er også funksjonelt, dersom bruker glemmer
 passordet.
 
-![](media/image23.png){width="3.3769838145231845in"
-height="5.010416666666667in"}
-
-[]{#_Ref514186244 .anchor}Figur 21: Innlogging til Alumni
+![Innlogging](https://github.com/dtpett16/uia-alumni/blob/master/vedlegg/innlogging.PNG)
 
 **Profilfunksjoner:**
 
@@ -175,19 +170,14 @@ Figur 22: Profilfunksjoner viser noen av funksjonene en bruker kan få
 tilgang til. Brukeren kan tilpasse sin egen informasjon, se varlinger,
 eller annen aktivitet.
 
-![](media/image24.png){width="5.958333333333333in"
-height="2.678430664916885in"}
-
-[]{#_Ref514186886 .anchor}Figur 22: Profilfunksjoner
+![Profilfunksjoner](https://github.com/dtpett16/uia-alumni/blob/master/vedlegg/profilfunksjoner.PNG)
 
 **Min profil:**\
 Figur 23: Egen profil for bruker viser hvordan profilen til en bruker
 kan se ut. Brukeren kan gjøre endringer til profilen som kan være
 synlige eller private for andre brukere.
 
-![](media/image25.png){width="3.424106517935258in" height="2.84375in"}
-
-[]{#_Ref514186934 .anchor}Figur 23: Egen profil for bruker
+![Min Profil](https://github.com/dtpett16/uia-alumni/blob/master/vedlegg/min%20profil.PNG)
 
 **Mitt nettverk:**
 
@@ -199,9 +189,7 @@ Mitt nettverk har også et eget søkefelt for å inne bestemte brukere, i
 tillegg til en funksjon for å sortere brukere tilknyttet til et bestemt
 fakultet (ikke implementert).
 
-![](media/image26.png){width="5.28125in" height="5.061875546806649in"}
-
-[]{#_Ref514187025 .anchor}Figur 24: Nettverket til brukere
+![Mitt Nettverk](https://github.com/dtpett16/uia-alumni/blob/master/vedlegg/Mitt%20nettverk.PNG)
 
 **Arrangementer:**
 
@@ -210,10 +198,7 @@ Figur 25: Arrangementer viser hvordan brukeren kan se arrangementer
 arrangementer eller bruke «Pinboard» knappen for å automatisk vise
 arrangementer i en bestemt periode.
 
-![](media/image27.png){width="6.770833333333333in"
-height="4.010416666666667in"}
-
-[]{#_Ref514187329 .anchor}Figur 25: Arrangementer
+![Arrangementer](https://github.com/dtpett16/uia-alumni/blob/master/vedlegg/Arrangementer.PNG)
 
 **Påmelding arrangementer:**
 
@@ -221,10 +206,7 @@ Figur 26: Påmelding arrangementer viser hvordan en bruker kan bruke et
 påmeldingsskjema for å melde seg på et arrangement. Noe av informasjonen
 kan være valgfri. Brukeren vil få påmeldingsinformasjon via e-post.
 
-![](media/image28.png){width="4.291666666666667in"
-height="4.642142388451443in"}
-
-[]{#_Ref514187416 .anchor}Figur 26: Påmelding arrangementer
+![Påmelding arrangement](https://github.com/dtpett16/uia-alumni/blob/master/vedlegg/p%C3%A5melding%20arr..PNG)
 
 Det var i utgangspunktet ønskelig å bruke prototypen for å bistå
 utformingen av kravspesifikasjonen. Istedenfor ble den utviklet og
