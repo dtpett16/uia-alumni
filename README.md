@@ -340,6 +340,7 @@ for tilgang, bruk og registrering av informasjon i systemet:
 Det må være anledning for superadministrator av systemet å kunne legge
 til nye brukere ved import av lister basert på en standard mal.
 
+```
 +-----------------------+-----------------------+-----------------------+
 | Nr.                   | Krav                  | Prioritet             |
 +=======================+=======================+=======================+
@@ -533,6 +534,7 @@ til nye brukere ved import av lister basert på en standard mal.
 |                       |                       |                       |
 |                       | Beskriv løsning.      |                       |
 +-----------------------+-----------------------+-----------------------+
+```
 
 **Tilgang**
 
@@ -561,6 +563,7 @@ Et user case eksempel på en smidig registrering kan være:
     ettertid skal brukeren kunne få påminnelse via e-post om å fullføre
     registrering med Dataporten, eller miste tilgang.
 
+```
 +-----------------------+-----------------------+-----------------------+
 | Nr.                   | Krav                  | Prioritet             |
 +=======================+=======================+=======================+
@@ -626,6 +629,7 @@ Et user case eksempel på en smidig registrering kan være:
 |                       | gjenoppretting av     |                       |
 |                       | passord.              |                       |
 +-----------------------+-----------------------+-----------------------+
+```
 
 ### 4. Innhold og funksjoner
 
@@ -735,6 +739,7 @@ Disse funksjonene kan også tilbys:
 
 ### 5. Profil for alumni
 
+```
 +-----------------------+-----------------------+-----------------------+
 | Nr.                   | Krav                  | Prioritet             |
 +=======================+=======================+=======================+
@@ -814,9 +819,11 @@ Disse funksjonene kan også tilbys:
 |                       | oppdatering av        |                       |
 |                       | informasjon i profil  |                       |
 +-----------------------+-----------------------+-----------------------+
+```
 
 ### 6. Profil for kontakter
 
+```
 +-----------------------+-----------------------+-----------------------+
 | Nr.                   | Krav                  | Prioritet             |
 +=======================+=======================+=======================+
@@ -926,9 +933,11 @@ Disse funksjonene kan også tilbys:
 |                       | gjennomført av        |                       |
 |                       | administrator.        |                       |
 +-----------------------+-----------------------+-----------------------+
+```
 
 ### 7. Profil for virksomhet
 
+```
 +-----------------------+-----------------------+-----------------------+
 | Nr.                   | Krav                  | Prioritet             |
 +=======================+=======================+=======================+
@@ -1010,6 +1019,7 @@ Disse funksjonene kan også tilbys:
 |                       | systemet, eller ved   |                       |
 |                       | endringer.            |                       |
 +-----------------------+-----------------------+-----------------------+
+```
 
 ### 8. Kommunikasjon med brukere
 
@@ -1032,6 +1042,7 @@ Disse funksjonene kan også tilbys:
 
 ### 9. Arrangementer
 
+```
 +-----------------------+-----------------------+-----------------------+
 | Nr.                   | Krav                  | Prioritet             |
 +=======================+=======================+=======================+
@@ -1168,6 +1179,7 @@ Disse funksjonene kan også tilbys:
 |                       | ikke er registrert i  |                       |
 |                       | systemet              |                       |
 +-----------------------+-----------------------+-----------------------+
+```
 
 ### 10. Rapporter og søk
 
@@ -1203,6 +1215,7 @@ Disse funksjonene kan også tilbys:
 
 ### 13. Systemkrav
 
+```
 +-----------------------+-----------------------+-----------------------+
 | Nr.                   | Krav                  | Prioritet             |
 +=======================+=======================+=======================+
@@ -1255,9 +1268,11 @@ Disse funksjonene kan også tilbys:
 |                       | /leveranser/ia-prinsi |                       |
 |                       | pper/)                |                       |
 +-----------------------+-----------------------+-----------------------+
+```
 
 ### 14. Sikkerhet og personvern
 
+```
 +-----------------------+-----------------------+-----------------------+
 | Nr.                   | Krav                  | Prioritet             |
 +=======================+=======================+=======================+
@@ -1447,6 +1462,7 @@ Disse funksjonene kan også tilbys:
 |                       | tilgang på logger ved |                       |
 |                       | evt. misbruk.         |                       |
 +-----------------------+-----------------------+-----------------------+
+```
 
 ### 15. Skalerbarhet
 
