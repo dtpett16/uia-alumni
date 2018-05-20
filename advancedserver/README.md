@@ -1,5 +1,6 @@
 # Advanced server (testing purposes only)
 Denne mappen inneholder en mer avansert server. Den krever MySQL installert og følgende go dependencies:
+
 ´´´
 go get -u github.com/astaxie/beego
 go get -u github.com/astaxie/beego/orm
