@@ -1496,6 +1496,7 @@ Denne kalenderoversikten reflekterer det jevne arbeidstempoet
 bachelorgruppen og arbeidsgruppen har holdt, med flere oppfølgingsmøter
 som har blitt holdt i løpet av semesteret.
 
+```
   **Dato**        **Hendelse**
   --------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   Uke 50 (2017)   Prosjektleder for UiA Alumni (Gunn-Marit Eriksen) oppretter kontakt med Daniel Pettersen. Innledende samtaler rundt mulig oppgavesamarbeid.
@@ -1525,3 +1526,4 @@ som har blitt holdt i løpet av semesteret.
   11\. mai        Siste (tredje) styringsgruppemøte og gjennomgang av prototype
   14\. mai        Oppstart evaluering av tilbudene
   15\. mai        Siste møte med bachelorgruppen før innlevering
+```
